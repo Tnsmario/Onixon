@@ -1,19 +1,21 @@
 import React from "react";
-import { Link } from "react-scroll";
 import "./App.css";
-import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";
+import About from "./components/About";
+import AboutMe from "./components/AboutMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <main>
-      <Header />
       <Navbar />
-      <Contact />
+      <AboutMe />
+      <About />
       <Pricing />
-      <div className="h-[4000px]"></div>
+      <Contact />
+      <Footer />
     </main>
   );
 }
