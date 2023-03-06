@@ -21,25 +21,25 @@ function Navbar() {
                   href="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Home
+                  Acasă
                 </a>
                 <a
                   href="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  About Us
+                  Despre Noi
                 </a>
                 <a
                   href="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Pricing
+                  Preţuri
                 </a>
                 <a
                   href="#"
                   className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Contact
+                  Cere Ofertă
                 </a>
               </div>
             </div>
@@ -77,25 +77,25 @@ function Navbar() {
                 href="#"
                 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Home
+                Acasă
               </a>
               <a
                 href="#"
                 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Features
+                Despre Noi
               </a>
               <a
                 href="#"
                 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Pricing
+                Preţuri
               </a>
               <a
                 href="#"
                 className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
-                Contact Us
+                Cere Ofertă
               </a>
             </div>
           </div>

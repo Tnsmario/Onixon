@@ -1,4 +1,5 @@
 import React from "react";
+import ceoImage from "../assets/img/ceo_image.png";
 
 const AboutMe = () => {
   return (
@@ -11,9 +12,9 @@ const AboutMe = () => {
             alt="CEO Photo"
           />
         </div>
-        <h1 className="text-4xl font-bold text-center mb-4">John Smith</h1>
+        <h1 className="text-4xl font-bold text-center mb-4">Mario Tanasă</h1>
         <h2 className="text-2xl font-medium text-gray-600 text-center mb-8">
-          CEO of Company Name
+          Fondator & CEO Onixon
         </h2>
         <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget
