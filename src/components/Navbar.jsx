@@ -19,25 +19,25 @@ function Navbar() {
               <div className="ml-10 flex items-baseline space-x-4">
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Acasă
                 </a>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Despre Noi
                 </a>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Preţuri
                 </a>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Cere Ofertă
                 </a>
@@ -75,25 +75,25 @@ function Navbar() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
                 href="#"
-                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Acasă
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Despre Noi
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Preţuri
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Cere Ofertă
               </a>

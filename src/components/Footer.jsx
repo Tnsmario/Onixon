@@ -1,4 +1,5 @@
 import React from "react";
+import instagram from "../assets/img/instagram.svg";
 
 const Footer = () => {
   return (
@@ -7,6 +8,8 @@ const Footer = () => {
         <div>
           <p>&copy; 2023 Onixon. Toate drepturile rezervate.</p>
         </div>
+
+        <img src={instagram} width={"30px"} alt="instagram image" />
         <div>
           <ul className="flex space-x-4">
             <li>

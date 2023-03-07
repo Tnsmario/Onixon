@@ -1,5 +1,5 @@
 import React from "react";
-import ceoImage from "../assets/img/ceo_image.png";
+import ceoImage from "../assets/img/ceo_photo.jpg";
 
 const AboutMe = () => {
   return (
@@ -7,8 +7,8 @@ const AboutMe = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center">
           <img
-            className="h-40 rounded-full border-4 border-gray-300 mb-4"
-            src="https://via.placeholder.com/150"
+            className="h-64 rounded-[9999px] border-4 border-gray-300 mb-4"
+            src={ceoImage}
             alt="CEO Photo"
           />
         </div>

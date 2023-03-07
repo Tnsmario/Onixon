@@ -1,5 +1,4 @@
 import React from "react";
-import test from "../assets/img/test_image.jpg";
 
 function Contact() {
   return (
@@ -61,7 +60,7 @@ function Contact() {
               <div className="flex flex-wrap -mx-3">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                   <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded">
-                    Send Message
+                    Trimite
                   </button>
                 </div>
               </div>
