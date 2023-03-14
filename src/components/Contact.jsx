@@ -59,7 +59,7 @@ function Contact() {
               </div>
               <div className="flex flex-wrap -mx-3">
                 <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded">
+                  <button className="bg-[#F4AD15] hover:bg-[#C58C11] text-white font-bold py-3 px-4 rounded">
                     Trimite
                   </button>
                 </div>

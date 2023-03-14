@@ -9,7 +9,12 @@ const Footer = () => {
           <p>&copy; 2023 Onixon. Toate drepturile rezervate.</p>
         </div>
 
-        <img src={instagram} width={"30px"} alt="instagram image" />
+        <a
+          href="https://instagram.com/onixon_development?igshid=ZDdkNTZiNTM="
+          target="_blank"
+        >
+          <img src={instagram} width={"30px"} alt="instagram image" />
+        </a>
         <div>
           <ul className="flex space-x-4">
             <li>

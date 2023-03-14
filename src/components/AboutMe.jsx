@@ -12,8 +12,10 @@ const AboutMe = () => {
             alt="CEO Photo"
           />
         </div>
-        <h1 className="text-4xl font-bold text-center mb-4">Mario Tanasă</h1>
-        <h2 className="text-2xl font-medium text-gray-600 text-center mb-8">
+        <h1 className="text-4xl font-bold text-white text-center mb-4">
+          Mario Tanasă
+        </h1>
+        <h2 className="text-2xl font-medium text-[#F4AD15] text-center mb-8">
           Fondator & CEO Onixon
         </h2>
         <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-12">

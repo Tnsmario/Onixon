@@ -30,7 +30,7 @@ function Pricing() {
                 <i className="fas fa-times mr-2"></i>Feature 4
               </li>
             </ul>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-8">
+            <button className="bg-[#F4AD15] hover:bg-[#C58C11] text-white font-bold py-2 px-4 rounded mt-8">
               Cere Ofertă
             </button>
           </div>
@@ -57,7 +57,7 @@ function Pricing() {
                 <i className="fas fa-check mr-2"></i>Feature 4
               </li>
             </ul>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-8">
+            <button className="bg-[#F4AD15] hover:bg-[#C58C11] text-white font-bold py-2 px-4 rounded mt-8">
               Cere Ofertă
             </button>
           </div>
