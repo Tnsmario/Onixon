@@ -9,9 +9,7 @@ const About = () => {
         </h2>
         <div className="flex flex-col md:flex-row md:space-x-6">
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-bold text-gray-100 mb-4">
-              Povestea Noastră
-            </h3>
+            <h3 className="text-2xl font-bold text-gray-100 mb-4">Misiune</h3>
             <p className="text-gray-400 leading-relaxed mb-8">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
               eleifend dui vel diam aliquet, id facilisis purus bibendum. Sed ut

@@ -16,32 +16,40 @@ function Navbar() {
               <img className="h-9" src={onixon} alt="Logo" />
             </div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <a
-                  href="#"
-                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Acasă
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Despre Noi
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Preţuri
-                </a>
-                <a
-                  href="#"
-                  className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Cere Ofertă
-                </a>
-              </div>
+              <ul className="ml-10 flex items-baseline space-x-4">
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Acasă
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Despre Noi
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Preţuri
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Cere Ofertă
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
@@ -73,30 +81,38 @@ function Navbar() {
         {(ref) => (
           <div className="md:hidden" ref={ref}>
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a
-                href="#"
-                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Acasă
-              </a>
-              <a
-                href="#"
-                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Despre Noi
-              </a>
-              <a
-                href="#"
-                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Preţuri
-              </a>
-              <a
-                href="#"
-                className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Cere Ofertă
-              </a>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Acasă
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Despre Noi
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Preţuri
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Cere Ofertă
+                </a>
+              </li>
             </div>
           </div>
         )}

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
 function Pricing() {
   return (
     <section className="bg-[#1F2937] py-20">
@@ -24,7 +24,8 @@ function Pricing() {
                 <i className="fas fa-check mr-2"></i>Feature 2
               </li>
               <li className="mb-4">
-                <i className="fas fa-check mr-2"></i>Feature 3
+                <FontAwesomeIcon icon="fa-solid fa-check" />
+                Feature 3
               </li>
               <li className="mb-4">
                 <i className="fas fa-times mr-2"></i>Feature 4
