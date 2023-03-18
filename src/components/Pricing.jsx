@@ -1,5 +1,6 @@
 import React from "react";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { FeatureMenu } from "./FeatureMenu";
+
 function Pricing() {
   return (
     <section className="bg-[#1F2937] py-20">
@@ -15,21 +16,15 @@ function Pricing() {
             <p className="text-gray-600 text-base mb-6">
               Perfect for small businesses or personal projects.
             </p>
-            <p className="text-gray-800 text-2xl font-bold mb-6">$100</p>
+            <p className="text-gray-800 text-2xl font-bold mb-6">€100</p>
             <ul className="text-sm text-gray-600">
-              <li className="mb-4">
-                <i className="fas fa-check mr-2"></i>Feature 1
-              </li>
-              <li className="mb-4">
-                <i className="fas fa-check mr-2"></i>Feature 2
-              </li>
-              <li className="mb-4">
-                <FontAwesomeIcon icon="fa-solid fa-check" />
-                Feature 3
-              </li>
-              <li className="mb-4">
-                <i className="fas fa-times mr-2"></i>Feature 4
-              </li>
+              {FeatureMenu.map((item, index) => {
+                return (
+                  <li key={index} className={item.cName}>
+                    {item.title}
+                  </li>
+                );
+              })}
             </ul>
             <button className="bg-[#F4AD15] hover:bg-[#C58C11] text-white font-bold py-2 px-4 rounded mt-8">
               Cere Ofertă
@@ -43,20 +38,15 @@ function Pricing() {
             <p className="text-gray-600 text-base mb-6">
               Best for large businesses or complex projects.
             </p>
-            <p className="text-gray-800 text-2xl font-bold mb-6">$400</p>
+            <p className="text-gray-800 text-2xl font-bold mb-6">€400</p>
             <ul className="text-sm text-gray-600">
-              <li className="mb-4">
-                <i className="fas fa-check mr-2"></i>Feature 1
-              </li>
-              <li className="mb-4">
-                <i className="fas fa-check mr-2"></i>Feature 2
-              </li>
-              <li className="mb-4">
-                <i className="fas fa-check mr-2"></i>Feature 3
-              </li>
-              <li className="mb-4">
-                <i className="fas fa-check mr-2"></i>Feature 4
-              </li>
+              {FeatureMenu.map((item, index) => {
+                return (
+                  <li key={index} className={item.cName}>
+                    {item.title}
+                  </li>
+                );
+              })}
             </ul>
             <button className="bg-[#F4AD15] hover:bg-[#C58C11] text-white font-bold py-2 px-4 rounded mt-8">
               Cere Ofertă
