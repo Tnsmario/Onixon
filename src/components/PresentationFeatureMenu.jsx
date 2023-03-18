@@ -1,6 +1,6 @@
 import React from "react";
 
-export const FeatureMenu = [
+export const PresentationFeatureMenu = [
   {
     title: "Design modern",
     cName: "mb-4",
@@ -14,7 +14,7 @@ export const FeatureMenu = [
     cName: "mb-4",
   },
   {
-    title: "Consultanță gratuită pentru o perioadă de 3 luni",
+    title: "Mentenanță gratuită primele 3 luni",
     cName: "mb-4",
   },
 ];

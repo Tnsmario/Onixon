@@ -1,5 +1,6 @@
 import React from "react";
-import { FeatureMenu } from "./FeatureMenu";
+import { PresentationFeatureMenu } from "./PresentationFeatureMenu";
+import { EcommFeature } from "./EcommFeature";
 
 function Pricing() {
   return (
@@ -14,11 +15,11 @@ function Pricing() {
               Website de prezentare
             </h3>
             <p className="text-gray-600 text-base mb-6">
-              Perfect for small businesses or personal projects.
+              Perfect pentru a prezenta si de a promova ideea unui business nou.
             </p>
             <p className="text-gray-800 text-2xl font-bold mb-6">€100</p>
-            <ul className="text-sm text-gray-600">
-              {FeatureMenu.map((item, index) => {
+            <ul className="text-md text-gray-600">
+              {PresentationFeatureMenu.map((item, index) => {
                 return (
                   <li key={index} className={item.cName}>
                     {item.title}
@@ -36,11 +37,12 @@ function Pricing() {
               Magazin online
             </h3>
             <p className="text-gray-600 text-base mb-6">
-              Best for large businesses or complex projects.
+              Magazin online 100% responsive perfect pentru business-urile care
+              vor să-și vândă sau să-și promoveze produsele.
             </p>
             <p className="text-gray-800 text-2xl font-bold mb-6">€400</p>
-            <ul className="text-sm text-gray-600">
-              {FeatureMenu.map((item, index) => {
+            <ul className="text-md text-gray-600">
+              {EcommFeature.map((item, index) => {
                 return (
                   <li key={index} className={item.cName}>
                     {item.title}
