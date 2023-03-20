@@ -1,0 +1,19 @@
+.underline-element::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 2px;
+  background-color: aqua;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    width: 0%;
+    background-color: #f4ad15;
+  }
+  100% {
+    width: 100%;
+    background-color: #f4ad15;
+  }
+}

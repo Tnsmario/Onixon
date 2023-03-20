@@ -1,20 +1,17 @@
 import React from "react";
-import instagram from "../assets/img/instagram.svg";
+import "../components/css/Footer.css";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-4">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center max-md:text-xs">
         <div>
           <p>&copy; 2023 Onixon. Toate drepturile rezervate.</p>
         </div>
         <div>
           <ul className="flex space-x-4">
             <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#">Terms of Service</a>
+              <a href="#">Politica de confidenţialitate</a>
             </li>
           </ul>
         </div>

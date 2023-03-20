@@ -18,11 +18,11 @@ const AboutMe = () => {
         <h2 className="text-2xl font-medium text-[#F4AD15] text-center mb-8">
           Fondator & CEO Onixon
         </h2>
-        <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-12">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget
-          ullamcorper urna. Proin euismod sapien ut magna aliquam mattis. Nunc
-          suscipit, nisl quis viverra feugiat, felis elit pellentesque nisi, in
-          feugiat libero purus ac nisi.
+        <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-12 text-white">
+          Salut, ma numesc Mario, fondatorul Onixon, si sunt singurul om care
+          este implicat in mod direct in crearea unui website de la design pana
+          la functionalitate. Incerc din rasputeri sa aduc un plus afacerilor
+          voastre cu ajutorul aparentei in mediul online.
         </p>
       </div>
     </section>

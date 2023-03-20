@@ -16,7 +16,7 @@ function Navbar() {
               <img className="h-9" src={onixon} alt="Logo" />
             </div>
             <div className="hidden md:block">
-              <ul className="ml-10 flex items-baseline space-x-4">
+              <ul className="ml-10 flex items-baseline space-x-4 list-none">
                 <li>
                   <a
                     href="#"
@@ -80,7 +80,7 @@ function Navbar() {
       >
         {(ref) => (
           <div className="md:hidden" ref={ref}>
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 list-none">
               <li>
                 <a
                   href="#"
@@ -113,7 +113,7 @@ function Navbar() {
                   Cere Ofertă
                 </a>
               </li>
-            </div>
+            </ul>
           </div>
         )}
       </Transition>
