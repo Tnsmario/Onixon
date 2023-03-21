@@ -19,10 +19,10 @@ const AboutMe = () => {
           Fondator & CEO Onixon
         </h2>
         <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-12 text-white">
-          Salut, ma numesc Mario, fondatorul Onixon, si sunt singurul om care
-          este implicat in mod direct in crearea unui website de la design pana
-          la functionalitate. Incerc din rasputeri sa aduc un plus afacerilor
-          voastre cu ajutorul aparentei in mediul online.
+          Salut, mă numesc Mario, fondatorul Onixon, și sunt singurul om care
+          este implicat în mod direct în crearea unui website de la design până
+          la funcționalitate. Încerc din răsputeri să aduc un plus afacerilor
+          voastre prin a vă promova în mediul online.
         </p>
       </div>
     </section>
