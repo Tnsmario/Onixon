@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const About = () => {
   return (
-    <section className="bg-[#1F2937] py-14">
+    <section className="bg-[#1F2937] py-14" id="about">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
         <h2 className="text-3xl font-extrabold text-[#F4AD15] sm:text-4xl sm:leading-10 mb-8">
           Despre Noi

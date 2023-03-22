@@ -13,13 +13,15 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img className="h-9" src={onixon} alt="Logo" />
+              <a href="/" className="list-none">
+                <img className="h-10" src={onixon} alt="Logo" />
+              </a>
             </div>
             <div className="hidden md:block">
               <ul className="ml-10 flex items-baseline space-x-4 list-none">
                 <li>
                   <a
-                    href="#"
+                    href="/"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Acasă
@@ -27,7 +29,7 @@ function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#about"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Despre Noi
@@ -35,7 +37,7 @@ function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#prices"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Preţuri
@@ -43,7 +45,7 @@ function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#contact"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Cere Ofertă
@@ -83,7 +85,7 @@ function Navbar() {
             <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 list-none">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Acasă
@@ -91,15 +93,15 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
-                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  href="#about"
+                  className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Despre Noi
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#prices"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Preţuri
@@ -107,7 +109,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#contact"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Cere Ofertă

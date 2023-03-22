@@ -27,7 +27,7 @@ function Contact() {
   };
 
   return (
-    <section className="bg-[#1F2937] py-20">
+    <section className="bg-[#1F2937] py-20" id="contact">
       <div className="container mx-auto px-4 sm:px-6 ">
         <div className="flex flex-col md:flex-row space-x-8">
           <div className="md:w-3/5 flex flex-col mx-auto ">
@@ -81,7 +81,7 @@ function Contact() {
                     className="no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                     id="message"
                     name="message"
-                    placeholder="Detalii Proiect"
+                    placeholder="Detalii Proiect + Tipul Website-ului"
                   ></textarea>
                 </div>
               </div>

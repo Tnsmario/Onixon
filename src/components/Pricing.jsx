@@ -4,7 +4,7 @@ import { EcommFeature } from "./EcommFeature";
 
 function Pricing() {
   return (
-    <section className="bg-[#1F2937] py-20">
+    <section className="bg-[#1F2937] py-20" id="prices">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-[#F4AD15] mb-12 text-center">
           Preţuri
@@ -27,9 +27,6 @@ function Pricing() {
                 );
               })}
             </ul>
-            <button className="bg-[#F4AD15] hover:bg-[#C58C11] text-white font-bold py-2 px-4 rounded mt-8">
-              Cere Ofertă
-            </button>
           </div>
 
           <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-1/3">
@@ -50,9 +47,6 @@ function Pricing() {
                 );
               })}
             </ul>
-            <button className="bg-[#F4AD15] hover:bg-[#C58C11] text-white font-bold py-2 px-4 rounded mt-8">
-              Cere Ofertă
-            </button>
           </div>
         </div>
       </div>
