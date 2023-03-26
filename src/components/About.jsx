@@ -22,7 +22,8 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-4">Echipă</h3>
             <p className="text-gray-400 leading-relaxed mb-8">
               Momentan echipa este formata doar din fondator. Fondator care pune
-              suflet in munca pe care o depune in crearea unui website.
+              suflet in munca pe care o depune in crearea unui website. Echipa
+              se va dezvolta pe parcurs pentru a livra cele mai bune servicii.
             </p>
           </div>
         </div>

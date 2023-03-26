@@ -17,8 +17,4 @@ export const EcommFeature = [
     title: "Mentenanță gratuită primele 6 luni",
     cName: "mb-4",
   },
-  {
-    title: "Opțional: Design personalizat",
-    cName: "mb-4",
-  },
 ];

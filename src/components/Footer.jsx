@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/css/Footer.css";
+import "../assets/css/Footer.css";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
           <ul className="flex space-x-4">
             <li>
-              <a href="#">Politica de confidenţialitate</a>
+              <a href="#privacy_policy">Politica de confidenţialitate</a>
             </li>
           </ul>
         </div>

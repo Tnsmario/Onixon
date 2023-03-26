@@ -17,8 +17,4 @@ export const PresentationFeatureMenu = [
     title: "Mentenanță gratuită primele 3 luni",
     cName: "mb-4",
   },
-  {
-    title: "Opțional: Design personalizat",
-    cName: "mb-4",
-  },
 ];
