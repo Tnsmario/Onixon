@@ -43,7 +43,7 @@ function Contact() {
               <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full px-3 mb-6 md:mb-0">
                   <label
-                    className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
+                    className="block uppercase tracking-wide text-white text-sm font-bold mb-2"
                     htmlFor="name"
                   >
                     Nume*
@@ -61,7 +61,7 @@ function Contact() {
               <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full px-3">
                   <label
-                    className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
+                    className="block uppercase tracking-wide text-white text-sm font-bold mb-2"
                     htmlFor="email"
                   >
                     Email*
@@ -79,7 +79,7 @@ function Contact() {
               <div className="flex flex-wrap -mx-3 mb-6">
                 <div className="w-full px-3">
                   <label
-                    className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
+                    className="block uppercase tracking-wide text-white text-sm font-bold mb-2"
                     htmlFor="message"
                   >
                     Detalii Proiect
@@ -91,12 +91,16 @@ function Contact() {
                     name="message"
                     placeholder="Detalii Proiect"
                   ></textarea>
-                  <div className="radio-buttons  ">
-                    <div className="btns-wraper flex justify-around text-white">
+                  <div className="radio-buttons">
+                    <h2 className="underline-item block uppercase tracking-wide text-white text-sm font-bold mb-2">
+                      Servicii dorite
+                    </h2>
+                    <div className="btns-wraper flex flex-wrap justify-evenly text-white max-lg:my-4">
                       <div className="stack1">
                         <input
-                          type="checkbox"
+                          type="radio"
                           id="ecommerce"
+                          name="type_of_website"
                           value="Magazin Online"
                           onClick={handleClick}
                         />
@@ -106,8 +110,9 @@ function Contact() {
                       </div>
                       <div className="stack2">
                         <input
-                          type="checkbox"
+                          type="radio"
                           id="landing"
+                          name="type_of_website"
                           value="Website de Prezentare"
                           onClick={handleClick}
                         />
@@ -119,6 +124,7 @@ function Contact() {
                         <input
                           type="checkbox"
                           id="design"
+                          name="type_of_website"
                           value="Design Personalizat"
                           onClick={handleClick}
                         />
