@@ -2,19 +2,19 @@ import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import onixon from "../assets/img/onixon.png";
+import onixon from "../assets/img/onixon_white.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800">
+    <nav className="bg-gray-800 fixed w-screen">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="/" className="list-none">
-                <img className="h-10" src={onixon} alt="Logo" />
+                <img className="h-8" src={onixon} alt="Logo" />
               </a>
             </div>
             <div className="hidden md:block">
