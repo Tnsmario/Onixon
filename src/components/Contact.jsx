@@ -27,10 +27,6 @@ function Contact() {
       );
   };
 
-  let handleClick = (e) => {
-    console.log(e.target.value);
-  };
-
   return (
     <section className="bg-[#1F2937] py-20" id="contact">
       <div className="container mx-auto px-4 sm:px-6 ">
@@ -50,7 +46,7 @@ function Contact() {
                   </label>
                   <input
                     required
-                    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 lg:mb-3 leading-tight focus:outline-none focus:bg-white"
                     id="name"
                     name="user_name"
                     type="text"
@@ -95,14 +91,13 @@ function Contact() {
                     <h2 className="underline-item block uppercase tracking-wide text-white text-sm font-bold mb-2">
                       Servicii dorite
                     </h2>
-                    <div className="btns-wraper flex flex-wrap justify-evenly text-white max-lg:my-4">
+                    <div className="btns-wraper flex flex-wrap justify-evenly text-white lg:my-4">
                       <div className="stack1">
                         <input
                           type="radio"
                           id="ecommerce"
                           name="type_of_website"
                           value="Magazin Online"
-                          onClick={handleClick}
                         />
                         <label className="label" htmlFor="ecommerce">
                           Magazin Online
@@ -114,7 +109,6 @@ function Contact() {
                           id="landing"
                           name="type_of_website"
                           value="Website de Prezentare"
-                          onClick={handleClick}
                         />
                         <label className="label" htmlFor="landing">
                           Website de Prezentare
@@ -126,7 +120,6 @@ function Contact() {
                           id="design"
                           name="type_of_website"
                           value="Design Personalizat"
-                          onClick={handleClick}
                         />
                         <label className="label" htmlFor="design">
                           Design Personalizat
