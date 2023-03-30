@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import "../assets/css/About.css";
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
           Despre Noi
         </h2>
         <div className="flex flex-col md:flex-row md:space-x-6 ">
-          <div className="md:w-1/2 bg-white rounded-md py-5 px-5 max-md:my-5">
+          <div className="md:w-1/2 bg-white rounded-md py-5 px-5 max-md:my-5 misiune">
             <h3 className="text-2xl font-bold  mb-4">Misiune</h3>
             <p className="text-gray-400 leading-relaxed mb-8">
               Un website este o parte vitala cand vine vorba de un business,
@@ -18,7 +19,7 @@ const About = () => {
               website rapid si calitativ.
             </p>
           </div>
-          <div className="md:w-1/2 bg-white rounded-md py-5 px-5">
+          <div className="md:w-1/2 bg-white rounded-md py-5 px-5 echipa">
             <h3 className="text-2xl font-bold mb-4">Echipă</h3>
             <p className="text-gray-400 leading-relaxed mb-8">
               Momentan echipa este formata doar din fondator. Fondator care pune

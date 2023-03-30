@@ -17,7 +17,7 @@ function Pricing() {
             <p className="text-gray-600 text-base mb-6">
               Perfect pentru a prezenta si de a promova ideea unui business nou.
             </p>
-            <p className="text-gray-800 text-2xl font-bold mb-6">€100</p>
+            <p className="text-gray-800 text-2xl font-bold mb-6">€150</p>
             <ul className="text-md text-gray-600">
               {PresentationFeatureMenu.map((item, index) => {
                 return (
@@ -37,7 +37,7 @@ function Pricing() {
               Magazin online 100% responsive perfect pentru business-urile care
               vor să-și vândă sau să-și promoveze produsele.
             </p>
-            <p className="text-gray-800 text-2xl font-bold mb-6">€400</p>
+            <p className="text-gray-800 text-2xl font-bold mb-6">€700</p>
             <ul className="text-md text-gray-600">
               {EcommFeature.map((item, index) => {
                 return (

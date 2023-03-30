@@ -7,6 +7,7 @@ const AboutMe = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-center">
           <img
+            loading="lazy"
             className="h-64 rounded-[9999px] border-4 border-gray-300 mb-4"
             src={ceoImage}
             alt="CEO Photo"

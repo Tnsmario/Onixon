@@ -2,19 +2,19 @@ import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import onixon from "../assets/img/onixon_white.png";
+import onixon from "../assets/img/Logo.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 fixed w-screen">
+    <nav className="bg-gray-800 ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a href="/" className="list-none">
-                <img className="h-8" src={onixon} alt="Logo" />
+                <img className="h-9" src={onixon} alt="Logo" />
               </a>
             </div>
             <div className="hidden md:block">
@@ -22,7 +22,7 @@ function Navbar() {
                 <li>
                   <a
                     href="/"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Acasă
                   </a>
@@ -30,7 +30,7 @@ function Navbar() {
                 <li>
                   <a
                     href="#about"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Despre Noi
                   </a>
@@ -38,7 +38,7 @@ function Navbar() {
                 <li>
                   <a
                     href="#prices"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Preţuri
                   </a>
@@ -46,7 +46,7 @@ function Navbar() {
                 <li>
                   <a
                     href="#contact"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Cere Ofertă
                   </a>
