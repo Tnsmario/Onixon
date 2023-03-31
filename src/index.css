@@ -5,7 +5,10 @@
 html {
   scroll-behavior: smooth;
 }
-
+p,
+.text {
+  font-family: "Roboto", sans-serif;
+}
 .hover-underline-animation {
   display: inline-block;
   position: relative;
