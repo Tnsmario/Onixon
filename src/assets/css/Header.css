@@ -18,13 +18,3 @@
     opacity: 1;
   }
 }
-
-.animation {
-  animation: slideInTop 1s cubic-bezier(0.61, 1, 0.88, 1);
-}
-.text-animation {
-  animation: slideInRight 1.7s cubic-bezier(0.85, 0.18, 0.27, 0.96);
-}
-.preturi {
-  animation: slideInBottom 1.7s cubic-bezier(0.85, 0.18, 0.27, 0.96);
-}
