@@ -1,0 +1,6 @@
+.prezentare {
+  animation: slideInLeft 1.7s cubic-bezier(0.85, 0.18, 0.27, 0.96);
+}
+.magazin {
+  animation: slideInRight 1.7s cubic-bezier(0.85, 0.18, 0.27, 0.96);
+}

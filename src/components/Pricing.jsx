@@ -1,16 +1,17 @@
 import React from "react";
 import { PresentationFeatureMenu } from "./PresentationFeatureMenu";
 import { EcommFeature } from "./EcommFeature";
+import "../assets/css/Preturi.css";
 
 function Pricing() {
   return (
     <section className="bg-[#1F2937] py-20" id="prices">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-[#F4AD15] mb-12 text-center">
+        <h2 className="text-3xl font-bold text-[#F4AD15] mb-12 text-center preturi">
           Preţuri
         </h2>
         <div className="flex flex-col sm:flex-row justify-center">
-          <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-1/3">
+          <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-1/3 prezentare">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
               Website de prezentare
             </h3>
@@ -29,7 +30,7 @@ function Pricing() {
             </ul>
           </div>
 
-          <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-1/3">
+          <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-1/3 magazin">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
               Magazin online
             </h3>

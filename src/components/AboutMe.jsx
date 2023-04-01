@@ -4,7 +4,7 @@ import ceoImage from "../assets/img/ceo_photo.jpg";
 const AboutMe = () => {
   return (
     <section className="bg-[#1F2937] py-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 animation">
         <div className="flex justify-center">
           <img
             loading="lazy"
