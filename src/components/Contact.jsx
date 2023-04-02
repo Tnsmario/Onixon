@@ -3,7 +3,17 @@ import emailjs from "@emailjs/browser";
 import "../assets/css/Contact.css";
 import { Section } from "./Animation";
 
+const Result = () => {
+  return (
+    <p className="text-white">
+      Cererea a fost inregistrata cu succes. Va vom raspunde in cel mai scurt
+      timp.
+    </p>
+  );
+};
+
 function Contact() {
+  const [rezultat, showRezultat] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,14 +29,19 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          console.log("message sent");
-          e.target.reset();
         },
         (error) => {
           console.log(error.text);
         }
       );
+    e.target.reset();
+    showRezultat(true);
   };
+
+  // hide result
+  setTimeout(() => {
+    showRezultat(false);
+  }, 5000);
 
   return (
     <section className="bg-[#1F2937] py-20" id="contact">
@@ -128,6 +143,7 @@ function Contact() {
                       className="bg-[#F4AD15] hover:bg-[#C58C11] cursor-pointer text-white font-bold py-3 px-4 rounded"
                     />
                   </div>
+                  <div>{rezultat ? <Result /> : null}</div>
                 </div>
               </form>
             </div>
