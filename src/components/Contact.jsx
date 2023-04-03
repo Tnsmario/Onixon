@@ -108,7 +108,7 @@ function Contact() {
                       <h2 className="underline-item block uppercase tracking-wide text-white text-sm font-bold mb-2">
                         Servicii dorite
                       </h2>
-                      <div className="btns-wraper flex flex-wrap justify-evenly text-white lg:my-4 max-md:px-5">
+                      <div className="btns-wraper flex flex-wrap justify-evenly text-white lg:my-4 max-md:px-5 max-md:block">
                         <div className="stack1 ">
                           <input
                             type="radio"
@@ -120,7 +120,7 @@ function Contact() {
                             Magazin Online
                           </label>
                         </div>
-                        <div className="stack2">
+                        <div className="stack2 mt-2">
                           <input
                             type="radio"
                             id="landing"
