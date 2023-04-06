@@ -12,7 +12,7 @@ const Result = () => {
   );
 };
 
-function Contact() {
+function Oferta() {
   const [rezultat, showRezultat] = useState(false);
   const form = useRef();
 
@@ -67,7 +67,7 @@ function Contact() {
                       id="name"
                       name="user_name"
                       type="text"
-                      placeholder="Cristian Popescu"
+                      placeholder="Popescu Cristian"
                     />
                   </div>
                 </div>
@@ -85,7 +85,7 @@ function Contact() {
                       id="email"
                       name="user_email"
                       type="email"
-                      placeholder="cristanpopescu@exemplu.com"
+                      placeholder="cristianpopescu@exemplu.com"
                     />
                   </div>
                 </div>
@@ -154,4 +154,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Oferta;

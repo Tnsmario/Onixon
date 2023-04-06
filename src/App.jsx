@@ -2,12 +2,12 @@ import React from "react";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import Contact from "./components/Contact";
 import Pricing from "./components/Pricing";
 import About from "./components/About";
 import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import { Header } from "./components/Header";
+import Oferta from "./components/Oferta";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <About />
       <AboutMe />
       <Pricing />
-      <Contact />
+      <Oferta />
       <Footer />
     </main>
   );

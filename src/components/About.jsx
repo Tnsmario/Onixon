@@ -25,7 +25,7 @@ const About = () => {
               <p className="text-gray-700 leading-relaxed mb-8">
                 Momentan echipa este formată doar din fondator. Fondator care
                 pune suflet în munca pe care o depune în crearea unui website.
-                Echipa se va dezvoltă pe parcurs pentru a livra cele mai bune
+                Echipa se va dezvolta pe parcurs pentru a livra cele mai bune
                 servicii.
               </p>
             </div>
