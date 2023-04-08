@@ -53,7 +53,7 @@ function Oferta() {
                 Cere Ofertă
               </h2>
               <form ref={form} onSubmit={sendEmail}>
-                <div className="flex flex-wrap -mx-3 mb-6">
+                <div className="flex flex-wrap -mx-3 mb-6 ">
                   <div className="w-full px-3 mb-6 md:mb-0">
                     <label
                       className="block uppercase tracking-wide text-white text-sm font-bold mb-2"
@@ -108,7 +108,7 @@ function Oferta() {
                       <h2 className="underline-item block uppercase tracking-wide text-white text-sm font-bold mb-2">
                         Servicii dorite
                       </h2>
-                      <div className="btns-wraper flex flex-wrap justify-evenly text-white lg:my-4 max-md:px-5 max-md:block">
+                      <div className="btns-wraper flex flex-wrap justify-evenly text-white lg:my-4 max-md:px-5 ">
                         <div className="stack1 ">
                           <input
                             type="radio"
@@ -120,7 +120,7 @@ function Oferta() {
                             Magazin Online
                           </label>
                         </div>
-                        <div className="stack2 mt-2">
+                        <div className="stack2 max-md:mt-3">
                           <input
                             type="radio"
                             id="landing"
