@@ -15,7 +15,7 @@ export const Header = () => {
               <span className="text-[#F4AD15]"> digitalizării</span>
             </h2>
           </div>
-          <div className="max-md:hidden animation">
+          <div className="max-lg:hidden animation">
             <img src={headerImage} className="h-max" alt="header_image" />
           </div>
         </div>

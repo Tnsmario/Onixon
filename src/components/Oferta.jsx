@@ -6,7 +6,7 @@ import { Section } from "./Animation";
 const Result = () => {
   return (
     <p className="text-white">
-      Cererea a fost inregistrata cu succes. Va vom raspunde in cel mai scurt
+      Cererea a fost înregistrată cu succes. Vă vom răspunde în cel mai scurt
       timp.
     </p>
   );
@@ -44,7 +44,7 @@ function Oferta() {
   }, 5000);
 
   return (
-    <section className="bg-[#1F2937] py-20" id="contact">
+    <section className="bg-[#1F2937] py-20" id="oferta">
       <Section>
         <div className="container mx-auto px-4 sm:px-6 animation">
           <div className="flex flex-col md:flex-row space-x-8">
@@ -108,7 +108,7 @@ function Oferta() {
                       <h2 className="underline-item block uppercase tracking-wide text-white text-sm font-bold mb-2">
                         Servicii dorite
                       </h2>
-                      <div className="btns-wraper flex flex-wrap justify-evenly text-white lg:my-4 max-md:px-5 ">
+                      <div className="btns-wraper pl-8 flex flex-wrap justify-between text-white lg:my-6 max-md:px-8 ">
                         <div className="stack1 ">
                           <input
                             type="radio"
@@ -120,15 +120,26 @@ function Oferta() {
                             Magazin Online
                           </label>
                         </div>
-                        <div className="stack2 max-md:mt-3">
+                        <div className="stack2 max-md:mt-auto">
                           <input
                             type="radio"
                             id="landing"
                             name="type_of_website"
-                            value="Website de Prezentare"
+                            value="Website de Prezentare O Pagina"
                           />
                           <label className="label" htmlFor="landing">
-                            Website de Prezentare
+                            Site Prezentare O Pagină
+                          </label>
+                        </div>
+                        <div className="stack2 max-md:mt-auto">
+                          <input
+                            type="radio"
+                            id="landing_multiple"
+                            name="type_of_website"
+                            value="Website de Prezentare Pagini Multiple"
+                          />
+                          <label className="label" htmlFor="landing_multiple">
+                            Site Prezentare Pagini Multiple
                           </label>
                         </div>
                       </div>

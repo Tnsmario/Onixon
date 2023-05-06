@@ -45,7 +45,7 @@ function Navbar() {
                 </li>
                 <li>
                   <a
-                    href="#contact"
+                    href="#oferta"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
                     Cere Ofertă
@@ -109,7 +109,7 @@ function Navbar() {
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="#oferta"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Cere Ofertă

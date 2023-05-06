@@ -19,7 +19,7 @@ const AboutMe = () => {
             Mario Tanasă
           </h1>
           <h2 className="text-2xl font-medium text-[#F4AD15] text-center mb-8">
-            Fondator & CEO Onixon
+            Fondator Onixon
           </h2>
           <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-12 text-[#f5f5dc]">
             Salut, mă numesc Mario, fondatorul Onixon, și sunt singurul om care

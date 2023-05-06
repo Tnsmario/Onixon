@@ -17,4 +17,8 @@ export const EcommFeature = [
     title: "Mentenanță gratuită primele 6 luni",
     cName: "mb-4",
   },
+  {
+    title: "Realizat in Wordpress sau Shopify",
+    cName: "mb-4",
+  },
 ];
