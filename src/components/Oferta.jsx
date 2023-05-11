@@ -131,7 +131,7 @@ function Oferta() {
                             Site Prezentare O Pagină
                           </label>
                         </div>
-                        <div className="stack2 max-md:mt-auto">
+                        <div className="stack3 max-md:mt-auto">
                           <input
                             type="radio"
                             id="landing_multiple"
