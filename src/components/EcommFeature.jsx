@@ -2,23 +2,23 @@ import React from "react";
 
 export const EcommFeature = [
   {
-    title: "Realizat in Wordpress",
+    title: "Implemented using WordPress",
     cName: "mb-4",
   },
   {
-    title: "Design dinamic",
+    title: "Dynamic Design",
     cName: "mb-4",
   },
   {
-    title: "Certificat SSL",
+    title: "User-Friendly",
     cName: "mb-4",
   },
   {
-    title: "Optimizare SEO",
+    title: "SEO Integration",
     cName: "mb-4",
   },
   {
-    title: "Mentenanță gratuită primele 6 luni",
+    title: "Free maintenance for the first 6 months",
     cName: "mb-4",
   },
 ];

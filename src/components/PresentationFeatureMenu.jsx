@@ -2,23 +2,23 @@ import React from "react";
 
 export const PresentationFeatureMenu = [
   {
-    title: "Realizat de la 0 la nivel de cod",
+    title: "Code based web page",
     cName: "mb-4",
   },
   {
-    title: "Design modern",
+    title: "Modern design",
     cName: "mb-4",
   },
   {
-    title: "100% Responsive",
+    title: "User-Friendly",
     cName: "mb-4",
   },
   {
-    title: "Optimizare SEO",
+    title: "Key Words",
     cName: "mb-4",
   },
   {
-    title: "Mentenanță gratuită primele 3 luni",
+    title: "Free maintenance for the first 3 months",
     cName: "mb-4",
   },
 ];

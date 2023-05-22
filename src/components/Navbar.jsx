@@ -8,7 +8,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-900">
+    <nav className="bg-[#111827]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -24,7 +24,7 @@ function Navbar() {
                     href="/"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    Acasă
+                    Home
                   </a>
                 </li>
                 <li>
@@ -32,7 +32,7 @@ function Navbar() {
                     href="#about"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    Despre Noi
+                    About
                   </a>
                 </li>
                 <li>
@@ -40,7 +40,7 @@ function Navbar() {
                     href="#prices"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    Preţuri
+                    Prices
                   </a>
                 </li>
                 <li>
@@ -48,7 +48,7 @@ function Navbar() {
                     href="#oferta"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    Cere Ofertă
+                    Order
                   </a>
                 </li>
               </ul>
@@ -88,7 +88,7 @@ function Navbar() {
                   href="/"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Acasă
+                  Home
                 </a>
               </li>
               <li>
@@ -96,7 +96,7 @@ function Navbar() {
                   href="#about"
                   className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Despre Noi
+                  About
                 </a>
               </li>
               <li>
@@ -104,7 +104,7 @@ function Navbar() {
                   href="#prices"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Preţuri
+                  Prices
                 </a>
               </li>
               <li>
@@ -112,7 +112,7 @@ function Navbar() {
                   href="#oferta"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Cere Ofertă
+                  Order
                 </a>
               </li>
             </ul>

@@ -7,17 +7,18 @@ function Pricing() {
   return (
     <section className=" bg-[#1F2937] py-20" id="prices">
       <Section>
-        <div className="container mx-auto px-4 ">
+        <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-[#F4AD15] mb-12 text-center">
-            Preţuri
+            Prices
           </h2>
           <div className="flex flex-col sm:flex-row justify-center">
             <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-2/3 prezentare">
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Website de Prezentare (O pagină / Pagini multiple)
+                Presentation Website (One Page / Multiple Pages)
               </h3>
               <p className="text-gray-600 text-base mb-6">
-                Site simplu și modern, realizat într-o singură pagină.
+                Unlock online visibility, credibility, and customer engagement
+                with a captivating presentation website.
               </p>
               <p className="text-gray-800 text-2xl font-bold mb-6">
                 €100 / €200
@@ -35,11 +36,11 @@ function Pricing() {
 
             <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-2/3 magazin">
               <h3 className="text-xl font-bold text-gray-800 mb-2">
-                Magazin Online
+                Ecommerce Store
               </h3>
               <p className="text-gray-600 text-base mb-6">
-                Magazin online 100% responsive perfect pentru business-urile
-                care vor să-și vândă sau să-și promoveze produsele.
+                Expand your reach, boost sales, and provide seamless shopping
+                experiences with a powerful ecommerce website.
               </p>
               <p className="text-gray-800 text-2xl font-bold mb-6">€600</p>
               <ul className="text-md text-black">
