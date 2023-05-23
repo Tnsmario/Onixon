@@ -14,7 +14,7 @@ export const PresentationFeatureMenu = [
     cName: "mb-4",
   },
   {
-    title: "Key Words",
+    title: "Specific Keywords",
     cName: "mb-4",
   },
   {
