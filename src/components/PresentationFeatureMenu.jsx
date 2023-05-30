@@ -2,7 +2,7 @@ import React from "react";
 
 export const PresentationFeatureMenu = [
   {
-    title: "Code based web page",
+    title: "Created using only WordPress",
     cName: "mb-4",
   },
   {
@@ -18,7 +18,7 @@ export const PresentationFeatureMenu = [
     cName: "mb-4",
   },
   {
-    title: "Free maintenance for the first 3 months",
+    title: "Free maintenance for the first 30 days",
     cName: "mb-4",
   },
 ];

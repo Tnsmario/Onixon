@@ -19,14 +19,23 @@ const AboutMe = () => {
             Mario Tanasă
           </h1>
           <h2 className="text-2xl font-medium text-[#F4AD15] text-center mb-8">
-            Fondator Onixon
+            Onixon's Founder
           </h2>
           <p className="text-lg leading-relaxed max-w-2xl mx-auto mb-12 text-[#f5f5dc]">
-            Salut, mă numesc Mario, fondatorul Onixon, și sunt singurul om care
-            este implicat în mod direct în crearea unui website de la design
-            până la funcționalitate. Încerc din răsputeri să aduc un plus
-            afacerilor voastre prin a vă promova în mediul online.
+            Mario is a skilled web developer with a passion for crafting
+            exceptional online experiences. With expertise in front-end and
+            back-end technologies, our team brings ideas to life with
+            pixel-perfect precision and user-centric design. Contact us today to
+            transform your vision into a captivating digital reality.
           </p>
+          <div className="buttonContainer text-center">
+            <button
+              type="button"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            >
+              Contact Us
+            </button>
+          </div>
         </div>
       </Section>
     </section>
