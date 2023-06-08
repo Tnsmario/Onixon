@@ -2,7 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import "../assets/css/Navbar.css";
 import onixon from "../assets/img/Logo.png";
 
 function Navbar() {
@@ -49,15 +48,11 @@ function Navbar() {
                     href="#oferta"
                     className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
                   >
-                    Order
+                    Request an offer
                   </a>
                 </li>
               </ul>
             </div>
-          </div>
-
-          <div className="language-button-container">
-            <button className="language">Test</button>
           </div>
           <div className="-mr-2 flex md:hidden">
             <button
@@ -117,7 +112,7 @@ function Navbar() {
                   href="#oferta"
                   className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Order
+                  Request an offer
                 </a>
               </li>
             </ul>
