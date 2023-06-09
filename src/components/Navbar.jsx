@@ -51,51 +51,31 @@ function Navbar() {
       </div>
       <Transition
         show={isOpen}
-        enter="transition ease-out duration-100 transform"
+        enter="transition ease-in duration-600 transform"
         enterFrom="opacity-0 scale-95"
         enterTo="opacity-100 scale-100"
         leave="transition ease-in duration-75 transform"
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        {(ref) => (
-          <div className="md:hidden" ref={ref}>
+        {
+          <div className="md:hidden">
             <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 list-none">
-              <li>
-                <a
-                  href="/"
-                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#about"
-                  className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#prices"
-                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Prices
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#oferta"
-                  className="text-gray-300  hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Request an offer
-                </a>
-              </li>
+              {NavbarElements.map((item, index) => {
+                return (
+                  <li key={index}>
+                    <a
+                      href={item.url}
+                      className={`block text-base ${item.cName}`}
+                    >
+                      {item.title}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
-        )}
+        }
       </Transition>
     </nav>
   );
