@@ -43,7 +43,7 @@ function Oferta() {
   }, 10000);
 
   return (
-    <section className="bg-[#1F2937] py-20" id="oferta">
+    <section className="bg-[#1F2937] py-20" id="requestOffer">
       <Section>
         <div className="container mx-auto px-4 sm:px-6 animation">
           <div className="flex flex-col md:flex-row space-x-8">

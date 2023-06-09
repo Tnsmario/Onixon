@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import onixon from "../assets/img/Logo.png";
+import { NavbarElements } from "./NavbarElements";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,38 +20,15 @@ function Navbar() {
             </div>
             <div className="hidden md:block">
               <ul className="ml-10 flex items-baseline space-x-4 list-none">
-                <li>
-                  <a
-                    href="/"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#about"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-                  >
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#prices"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-                  >
-                    Prices
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#oferta"
-                    className="text-gray-300  hover:text-white px-3 py-2 rounded-md text-lg font-medium"
-                  >
-                    Request an offer
-                  </a>
-                </li>
+                {NavbarElements.map((item, index) => {
+                  return (
+                    <li key={index}>
+                      <a href={item.url} className={item.cName}>
+                        {item.title}
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
