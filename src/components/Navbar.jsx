@@ -4,6 +4,8 @@ import { Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import onixon from "../assets/img/Logo.png";
 import { NavbarElements } from "./NavbarElements";
+import "../assets/css/Language.css";
+import { LanguageButton } from "./LanguageButton";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,6 +33,7 @@ function Navbar() {
                 })}
               </ul>
             </div>
+            <LanguageButton />
           </div>
           <div className="-mr-2 flex md:hidden">
             <button

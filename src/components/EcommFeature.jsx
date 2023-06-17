@@ -2,7 +2,7 @@ import React from "react";
 
 export const EcommFeature = [
   {
-    title: "Code based (React, TailwindCSS, WordPress)",
+    title: "Created using only WordPress",
     cName: "mb-4",
   },
   {

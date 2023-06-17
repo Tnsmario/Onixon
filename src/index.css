@@ -4,8 +4,5 @@
 
 html {
   scroll-behavior: smooth;
-}
-p,
-.text {
   font-family: "Roboto", sans-serif;
 }

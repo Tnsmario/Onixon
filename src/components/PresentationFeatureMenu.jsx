@@ -2,7 +2,7 @@ import React from "react";
 
 export const PresentationFeatureMenu = [
   {
-    title: "Created using only WordPress",
+    title: "Code based (React, TailwindCSS)",
     cName: "mb-4",
   },
   {
