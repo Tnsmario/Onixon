@@ -7,7 +7,7 @@ function CumLucram() {
     <section className="how-we-work-section">
       <Section>
         <div className="h-full container mx-auto px-4 sm:px-6">
-          <h2 className="section-title">Cum lucram</h2>
+          <h2 className="section-title">Cum lucrăm</h2>
           <div className="step-container">
             <div className="step step1">
               <h3 className="step-title">Stabilim Obiectivele</h3>
@@ -17,35 +17,35 @@ function CumLucram() {
               </p>
             </div>
             <div className="step step2">
-              <h3 className="step-title">Proiectam design-ul</h3>
+              <h3 className="step-title">Proiectăm design-ul</h3>
               <p className="step-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 accumsan neque eu ex consectetur, ac dapibus lacus semper.
               </p>
             </div>
             <div className="step step3">
-              <h3 className="step-title">Achizitionam domeniul</h3>
+              <h3 className="step-title">Achiziționăm domeniul</h3>
               <p className="step-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 accumsan neque eu ex consectetur, ac dapibus lacus semper.
               </p>
             </div>
             <div className="step step4">
-              <h3 className="step-title">Cream continutul</h3>
+              <h3 className="step-title">Creăm conținutul</h3>
               <p className="step-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 accumsan neque eu ex consectetur, ac dapibus lacus semper.
               </p>
             </div>
             <div className="step step5">
-              <h3 className="step-title">Dezvoltam functionalitatea</h3>
+              <h3 className="step-title">Dezvoltăm funcționalitatea</h3>
               <p className="step-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 accumsan neque eu ex consectetur, ac dapibus lacus semper.
               </p>
             </div>
             <div className="step step6">
-              <h3 className="step-title">Testam si livram</h3>
+              <h3 className="step-title">Testăm și livrăm</h3>
               <p className="step-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
                 accumsan neque eu ex consectetur, ac dapibus lacus semper.

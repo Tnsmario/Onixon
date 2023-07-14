@@ -11,7 +11,7 @@ const About = () => {
             About Us
           </h2>
           <div className="flex flex-col md:flex-row md:space-x-6">
-            <div className="md:w-1/2 bg-white rounded-md py-5 px-5 max-md:my-5 desc misiune">
+            <div className="md:w-1/2 bg-[#f5f5dc] rounded-md py-5 px-5 max-md:my-5 desc misiune">
               <h3 className="text-2xl font-bold  mb-4">Mission</h3>
               <p className="text-gray-700 leading-relaxed mb-8">
                 Our mission is to empower individuals and businesses to thrive
@@ -21,7 +21,7 @@ const About = () => {
                 but also drive meaningful engagement and sustainable growth.
               </p>
             </div>
-            <div className="md:w-1/2 bg-white rounded-md py-5 px-5 desc echipa">
+            <div className="md:w-1/2 bg-[#f5f5dc] rounded-md py-5 px-5 desc echipa">
               <h3 className="text-2xl font-bold mb-4">Team</h3>
               <p className="text-gray-700 leading-relaxed mb-8">
                 As a solo web development business, the team is composed of a

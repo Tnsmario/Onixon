@@ -12,7 +12,7 @@ function Pricing() {
             Prices
           </h2>
           <div className="flex flex-col sm:flex-row justify-center">
-            <div className=" bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-2/3">
+            <div className=" bg-[#f5f5dc] shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-2/3">
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 Presentation Website (One Page / Multiple Pages)
               </h3>
@@ -34,7 +34,7 @@ function Pricing() {
               </ul>
             </div>
 
-            <div className="bg-white shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-2/3">
+            <div className="bg-[#f5f5dc] shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-2/3">
               <h3 className="text-xl font-bold text-gray-800 mb-2">
                 Ecommerce Store
               </h3>

@@ -62,7 +62,7 @@ function Oferta() {
                     </label>
                     <input
                       required
-                      className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 lg:mb-3 leading-tight focus:outline-none focus:bg-white"
+                      className="appearance-none block w-full bg-[#f5f5dc] text-gray-700 border border-gray-200 rounded py-3 px-4 lg:mb-3 leading-tight focus:outline-none focus:bg-white"
                       id="name"
                       name="user_name"
                       type="text"
@@ -80,7 +80,7 @@ function Oferta() {
                     </label>
                     <input
                       required
-                      className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                      className="appearance-none block w-full bg-[#f5f5dc] text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                       id="email"
                       name="user_email"
                       type="email"
@@ -98,7 +98,7 @@ function Oferta() {
                     </label>
                     <textarea
                       required
-                      className="no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+                      className="no-resize appearance-none block w-full bg-[#f5f5dc] text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                       id="message"
                       name="message"
                       placeholder="One page presentation website about..."
@@ -150,7 +150,7 @@ function Oferta() {
                     <input
                       type="submit"
                       value="Send"
-                      className="bg-[#F4AD15] hover:bg-[#C58C11] cursor-pointer text-white font-bold py-3 px-4 rounded"
+                      className="bg-[#F4AD15] hover:bg-[#C58C11] cursor-pointer font-bold py-3 px-4 rounded"
                     />
                   </div>
                   <div>{rezultat ? <Result /> : null}</div>
