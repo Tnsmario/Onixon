@@ -7,7 +7,7 @@ function CumLucram() {
     <section className="how-we-work-section">
       <Section>
         <div className="h-full container mx-auto px-4 sm:px-6">
-          <h2 className="section-title">Cum lucrăm</h2>
+          <h2 className="section-title text-[#f4ad15]">Cum lucrăm</h2>
           <div className="step-container">
             <div className="step step1">
               <h3 className="step-title">Stabilim Obiectivele</h3>

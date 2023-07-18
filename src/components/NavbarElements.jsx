@@ -1,24 +1,24 @@
 export const NavbarElements = [
   {
-    title: "Home",
+    title: "Acasă",
     url: "/",
     cName:
       "text-[#f5f5dc] hover:text-white px-3 py-2 rounded-md text-lg font-medium",
   },
   {
-    title: "About",
+    title: "Despre Noi",
     url: "#about",
     cName:
       "text-[#f5f5dc] hover:text-white px-3 py-2 rounded-md text-lg font-medium",
   },
   {
-    title: "Prices",
+    title: "Servicii",
     url: "#prices",
     cName:
       "text-[#f5f5dc]  hover:text-white px-3 py-2 rounded-md text-lg font-medium",
   },
   {
-    title: "Request an offer",
+    title: "Cere ofertă",
     url: "#requestOffer",
     cName:
       "text-[#f5f5dc]  hover:text-white px-3 py-2 rounded-md text-lg font-medium",

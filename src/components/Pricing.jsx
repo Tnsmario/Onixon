@@ -9,7 +9,7 @@ function Pricing() {
       <Section>
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-[#F4AD15] mb-12 text-center">
-            Prices
+            Prețuri
           </h2>
           <div className="flex flex-col sm:flex-row justify-center">
             <div className=" bg-[#f5f5dc] shadow-md rounded-lg px-6 py-8 mx-4 my-4 sm:w-2/3">
