@@ -102,13 +102,13 @@ function Oferta() {
                       className="no-resize appearance-none block w-full bg-[#fff] text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
                       id="message"
                       name="message"
-                      placeholder="Un website simplu despre..."
+                      placeholder="Un website cu tematica..."
                     ></textarea>
                     <div className="radio-buttons">
                       <h2 className="underline-item block uppercase tracking-wide text-white text-sm font-bold mb-2">
                         Servicii
                       </h2>
-                      <div className="btns-wraper pl-8 flex flex-wrap justify-between text-white lg:my-6 max-md:px-8 ">
+                      <div className="btns-wraper pl-8 flex flex-wrap max-md:justify-between justify-evenly text-white lg:my-6 max-md:px-8 ">
                         <div className="stack1 ">
                           <input
                             type="radio"
@@ -117,7 +117,7 @@ function Oferta() {
                             value="Magazin Online"
                           />
                           <label className="label mr-4" htmlFor="ecommerce">
-                            Magazin online
+                            Website Design
                           </label>
                         </div>
                         <div className="stack2 max-md:mt-auto">
@@ -128,18 +128,7 @@ function Oferta() {
                             value="Website de Prezentare O Pagina"
                           />
                           <label className="label" htmlFor="landing">
-                            Website simplu
-                          </label>
-                        </div>
-                        <div className="stack3 max-md:mt-auto">
-                          <input
-                            type="radio"
-                            id="landing_multiple"
-                            name="type_of_website"
-                            value="Website de Prezentare Pagini Multiple"
-                          />
-                          <label className="label" htmlFor="landing_multiple">
-                            Website cu pagini multiple
+                            Web Development
                           </label>
                         </div>
                       </div>
