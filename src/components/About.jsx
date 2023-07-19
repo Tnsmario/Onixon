@@ -11,7 +11,7 @@ const About = () => {
             Despre noi
           </h2>
           <div className="flex flex-col md:flex-row md:space-x-6">
-            <div className="md:w-1/2 bg-[#f5f5dc] rounded-md py-5 px-5 max-md:my-5 desc misiune">
+            <div className="md:w-1/2 bg-[#fff] rounded-md py-5 px-5 max-md:my-5 desc misiune">
               <h3 className="text-2xl font-bold  mb-4">Misiune</h3>
               <p className="text-gray-700 leading-relaxed mb-8">
                 Misiunea noastră constă în a ajuta afacerile să atingă succesul
@@ -21,8 +21,8 @@ const About = () => {
                 creșterea durabilă.
               </p>
             </div>
-            <div className="md:w-1/2 bg-[#f5f5dc] rounded-md py-5 px-5">
-              <h3 className="text-2xl font-bold mb-4">Team</h3>
+            <div className="md:w-1/2 bg-[#fff] rounded-md py-5 px-5">
+              <h3 className="text-2xl font-bold mb-4">Echipă</h3>
               <p className="text-gray-700 leading-relaxed mb-8">
                 Ca o afacere de dezvoltare web specializată, echipa noastră este
                 condusă de un programator talentat și dedicat. Deși suntem o
