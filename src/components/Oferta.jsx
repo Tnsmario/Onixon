@@ -21,8 +21,8 @@ function Oferta() {
 
     emailjs
       .sendForm(
-        "service_ee2eih9",
-        "template_vzwvcsk",
+        "service_swk9468",
+        "template_tl494kk",
         form.current,
         "LC_IczCcReVzDNtKN"
       )
@@ -41,7 +41,7 @@ function Oferta() {
   // hide result
   setTimeout(() => {
     showRezultat(false);
-  }, 10000);
+  }, 7000);
 
   return (
     <section className="bg-[#1F2937] py-20" id="requestOffer">
@@ -112,22 +112,22 @@ function Oferta() {
                         <div className="stack1 ">
                           <input
                             type="radio"
-                            id="ecommerce"
-                            name="type_of_website"
-                            value="Magazin Online"
+                            id="web_design"
+                            name="type_of_service"
+                            value="Website Design"
                           />
-                          <label className="label mr-4" htmlFor="ecommerce">
+                          <label className="label mr-4" htmlFor="web_design">
                             Website Design
                           </label>
                         </div>
                         <div className="stack2 max-md:mt-auto">
                           <input
                             type="radio"
-                            id="landing"
-                            name="type_of_website"
-                            value="Website de Prezentare O Pagina"
+                            id="web_development"
+                            name="type_of_service"
+                            value="Web Development"
                           />
-                          <label className="label" htmlFor="landing">
+                          <label className="label" htmlFor="web_development">
                             Web Development
                           </label>
                         </div>
