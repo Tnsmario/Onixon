@@ -24,16 +24,17 @@ function Pricing() {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                    d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 01-1.125-1.125v-3.75zM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-8.25zM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 01-1.125-1.125v-2.25z"
                   />
                 </svg>
               </div>
-              <h3 className="service-title">WEBSITE DESIGN</h3>
+              <h3 className="service-title">POSTĂRI SOCIAL MEDIA</h3>
               <p className="parag">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Temporibus id, soluta obcaecati tempora itaque culpa quis
-                ratione similique cupiditate quas reprehenderit voluptatum dolor
-                iste dolorum nisi esse ea placeat dignissimos.
+                Echipa noastră specializată vă oferă servicii de creație de
+                postări pe social media, ce vor captiva audiența și vor defini
+                cu succes imaginea brandului dvs. Pe baza strategiilor
+                personalizate, vom livra conținut relevant și atractiv,
+                optimizat pentru succesul online.
               </p>
             </div>
             <div className="card-container text-center bg-white">
@@ -55,10 +56,11 @@ function Pricing() {
               </div>
               <h3 className="service-title">WEB DEVELOPMENT</h3>
               <p className="parag">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Temporibus id, soluta obcaecati tempora itaque culpa quis
-                ratione similique cupiditate quas reprehenderit voluptatum dolor
-                iste dolorum nisi esse ea placeat dignissimos.
+                Obțineți un website personalizat și captivant, adaptat afacerii
+                dvs. Echipa noastră talentată va crea un design atrăgător și
+                funcțional, oferindu-vă o prezență online de impact. Lăsați-ne
+                să construim website-ul perfect pentru succesul dvs. pe
+                internet!
               </p>
             </div>
           </div>

@@ -49,7 +49,7 @@ function Oferta() {
         <div className="container mx-auto px-4 sm:px-6 animation">
           <div className="flex flex-col md:flex-row space-x-8">
             <div className="md:w-3/5 flex flex-col mx-auto ">
-              <h2 className="text-3xl font-bold mb-8 text-center text-white">
+              <h2 className="text-3xl font-bold mb-8 text-center text-[#F4AD15]">
                 Cere ofertă
               </h2>
               <form ref={form} onSubmit={sendEmail}>
@@ -112,12 +112,15 @@ function Oferta() {
                         <div className="stack1 ">
                           <input
                             type="radio"
-                            id="web_design"
+                            id="postari_social_media"
                             name="type_of_service"
-                            value="Website Design"
+                            value="Postări Social Media"
                           />
-                          <label className="label mr-4" htmlFor="web_design">
-                            Website Design
+                          <label
+                            className="label mr-4"
+                            htmlFor="postari_social_media"
+                          >
+                            Postări Social Media
                           </label>
                         </div>
                         <div className="stack2 max-md:mt-auto">
