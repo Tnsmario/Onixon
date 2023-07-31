@@ -6,7 +6,7 @@ function CumLucram() {
   return (
     <section className="how-we-work-section">
       <Section>
-        <div className="h-full container mx-auto px-4 sm:px-6">
+        <div className="h-full container mx-auto px-4 sm:px-6 lg:px-8 ">
           <h2 className="section-title text-[#f4ad15]">
             Cum realizăm un website
           </h2>

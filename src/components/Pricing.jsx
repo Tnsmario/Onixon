@@ -6,8 +6,8 @@ function Pricing() {
   return (
     <section className=" bg-[#1F2937] py-20" id="prices">
       <Section>
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-[#F4AD15] mb-12 text-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-[#F4AD15] text-center mb-10">
             Servicii
           </h2>
           <div className="card-wraper">
@@ -19,7 +19,7 @@ function Pricing() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-[30px] h-[30px]"
+                  className="w-[1.875rem] h-[1.875rem]"
                 >
                   <path
                     strokeLinecap="round"
@@ -45,7 +45,7 @@ function Pricing() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-[30px] h-[30px]"
+                  className="w-[1.875rem] h-[1.875rem]"
                 >
                   <path
                     strokeLinecap="round"
@@ -71,7 +71,7 @@ function Pricing() {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="w-[30px] h-[30px]"
+                  className="w-[1.875rem] h-[1.875rem]"
                 >
                   <path
                     strokeLinecap="round"
