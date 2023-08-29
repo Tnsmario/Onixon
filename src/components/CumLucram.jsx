@@ -15,15 +15,15 @@ function CumLucram() {
               <h3 className="step-title">Stabilim obiectivele</h3>
               <p className="step-description">
                 După completarea formularului de cerere, vom stabili împreuna,
-                într-o convorbire telefonică sau pe zoom, obiectivele și ideile
-                de design pentru a putea începe proiectul.
+                într-o convorbire telefonică, obiectivele și ideile de design
+                pentru a putea începe proiectul.
               </p>
             </div>
             <div className="step step2">
               <h3 className="step-title">Proiectăm design-ul</h3>
               <p className="step-description">
                 Proiectarea constă în realizarea unui prototip al site-ului,
-                urmând ca beneficiarul să ne spuna dacă este in regulă sau dacă
+                urmând ca beneficiarul să ne spună dacă este în regulă sau dacă
                 dorește modificări adiționale.
               </p>
             </div>
@@ -38,7 +38,7 @@ function CumLucram() {
               <h3 className="step-title">Creăm conținutul</h3>
               <p className="step-description">
                 În primele zile de la achiziționarea domeniului, lucrăm la
-                conținut pentru a arăta cât mai bine si pentru a se mișca fără
+                conținut pentru a arăta cât mai bine și pentru a se mișca fără
                 probleme.
               </p>
             </div>
