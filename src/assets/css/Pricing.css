@@ -1,8 +1,8 @@
 .card-container {
   width: 400px;
-  height: 350px;
+  height: 390px;
   border-radius: 8px;
-  padding: 2em 1.5em;
+  padding: 2em 2em;
 }
 .card-wraper {
   display: flex;
@@ -15,13 +15,14 @@
 
 .service-title {
   font-size: 20px;
-  margin-bottom: 1em 0;
+  margin: 1em 0;
   font-weight: 600;
 }
 .parag {
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  text-align: start;
 }
 .svg-wraper {
   font-size: 30px;

@@ -28,13 +28,13 @@ function Pricing() {
                   />
                 </svg>
               </div>
-              <h3 className="service-title">SOCIAL MEDIA CONTENT</h3>
+              <h3 className="service-title">CONTENT WRITING</h3>
               <p className="parag">
-                Echipa noastră specializată vă oferă servicii de creație de
-                postări pe social media, ce vor captiva audiența și vor defini
-                cu succes imaginea brandului dvs. Pe baza strategiilor
-                personalizate, vom livra conținut relevant și atractiv,
-                optimizat pentru succesul online.
+                Suntem alchimiștii cuvintelor! Transformăm ideile în conținut
+                captivant care face concurența să râcâie de invidie. De la
+                articole până la postări pe rețelele de socializare, dăm viață
+                cuvintelor într-un stil unic și amuzant. Hai să punem un strop
+                de "HAHA" în conținutul tău.
               </p>
             </div>
             <div className="card-container text-center bg-white">
@@ -56,11 +56,12 @@ function Pricing() {
               </div>
               <h3 className="service-title">WEB DEVELOPMENT</h3>
               <p className="parag">
-                Obțineți un website personalizat și captivant, adaptat afacerii
-                dvs. Echipa noastră talentată va crea un design atrăgător și
-                funcțional, oferindu-vă o prezență online de impact. Lăsați-ne
-                să construim website-ul perfect pentru succesul dvs. pe
-                internet!
+                Construim site-uri web mai rapide decât se încălzește pizza
+                livrată. Codul nostru este atât de 'cool' încât pinguinii ar
+                face "flip". Dacă site-ul tău e doar o colecție de bug-uri,
+                suntem aici să le transformăm în 'caracteristici inovatoare'.
+                Hai să transformăm ideile tale în site-uri senzaționale, fără a
+                părăsi scaunul comod!
               </p>
             </div>
             <div className="card-container text-center bg-white">
@@ -82,11 +83,42 @@ function Pricing() {
               </div>
               <h3 className="service-title">UI / UX</h3>
               <p className="parag">
-                Serviciul nostru se concentrează pe proiectarea interfețelor
-                (UI) și a experiențelor de utilizare (UX) care pun utilizatorii
-                în centrul atenției. Procesul nostru creativ îmbină estetica
-                vizuală cu funcționalitatea, pentru a crea interfețe plăcute,
-                ușor de utilizat și eficiente.
+                UI/UX-ul nostru este ca un cocktail bine amestecat, un strop de
+                stil, o notă de intuitivitate și o zâmbetă sigură. Hai să dăm un
+                twist captivant site-ului tău, suntem aici să facem fiecare
+                interacțiune să conteze și să lase amprenta!
+              </p>
+            </div>
+            <div className="card-container text-center bg-white">
+              <div className="svg-wraper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width={1.5}
+                  stroke="currentColor"
+                  class="w-[1.875rem] h-[1.875rem]"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z"
+                  />
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                </svg>
+              </div>
+              <h3 className="service-title">MENTENANȚĂ WEB</h3>
+              <p className="parag">
+                Suntem ca "echipa de întreținere" pentru site-ul tău, dar nu
+                îmbrăcați în salopete! De la "fix-uri" rapide la "curățenia de
+                primăvară" a codului, suntem aici să ne asigurăm că site-ul tău
+                strălucește și rulează ca uns. Cu noi, nu trebuie să te
+                îngrijorezi de erori sau de aspectul dezordonat, ne ocupăm de
+                asta ca niște adevărați "super-eroi digitali".
               </p>
             </div>
           </div>
