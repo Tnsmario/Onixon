@@ -160,7 +160,7 @@ function Oferta() {
                         value="UX / UI"
                       />
                       <label className="label" htmlFor="ux_ui">
-                        UX / UI
+                        UI / UX
                       </label>
                     </div>
                     <div className="stack2 ">
