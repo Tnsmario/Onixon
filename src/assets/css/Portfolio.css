@@ -1,0 +1,35 @@
+.proiecteSection {
+  background-color: #1f2937;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.titleProiect {
+  font-size: 24px;
+  color: #f5f5dc;
+  margin-bottom: 1.5rem;
+}
+
+.proiect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.pozaProiect {
+  width: 35rem;
+  border-radius: 16px;
+  box-shadow: 0 0 30px 2px black;
+  transition: 0.5s ease;
+}
+.pozaProiect:hover {
+  transform: scale(1.05);
+}
